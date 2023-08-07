@@ -1,17 +1,21 @@
 import mysql from 'mysql';
+import { ConnectionBD } from './ConnectionBD';
 
-export class ConnectionBDVoter {
-    host = 'localhost';
-    user = 'root';
-    password = 'matafurros9000';
-    database = 'voting';
+export class ConnectionBDVoter extends ConnectionBD {
 
-    conn = mysql.createConnection({
-        host: this.host,
-        user: this.user,
-        password: this.password,
-        database: this.database
-    })
+    constructor() {
+        super();
+        this.host = 'localhost';
+        this.user = 'root';
+        this.password = 'root12345678';
+        this.database = 'voting';
+        this.conn = mysql.createConnection({
+            host: this.host,
+            user: this.user,
+            password: this.password,
+            database: this.database
+        })
+    }
 
     connect() {
         this.conn.connect((e) => {
