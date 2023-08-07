@@ -2,7 +2,7 @@
 
 # Estilos de Programacion
 
-Se utilizo el estilo 'microservices' en el archivo CAST VOTE/login/cliente/login_sv/src/containers/LoginVoting.jsx 
+Se utilizo el estilo 'microservices' en el sistema de login
 
 ![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/5.jpg)
 
