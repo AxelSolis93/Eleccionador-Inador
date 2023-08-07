@@ -1,11 +1,22 @@
 # Login 
 
-Se utilizo el estilo 'monolith' en el archivo login\src\conponents\Form.js
+# Estilos de Programacion
 
-Se utilizo el estilo 'passive aggressive' en el archivo login\src\conponents\Form.js en la funcion validateEmail()
+Se utilizo el estilo 'microservices' en el archivo CAST VOTE/login/cliente/login_sv/src/containers/LoginVoting.jsx 
 
-Se utilizo el plugin SonarLint para verificar que el codigo elavorado sea limpio.
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/5.jpg)
 
+Se utilizo el estilo 'passive aggressive' en el archivo CAST VOTE/login/cliente/login_sv/src/containers/LoginVoting.jsx en la funcion validateEmail()
+
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/4.jpg)
+
+Se utilizo el estilo 'thigns abstract' en el archivo CAST VOTE/login/backend/ConnectionBD.js
+
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/6.jpg)
+
+# SonarLint
+
+Se utilizo el plugin SonarLint para la generacion de codigo limpio en todo el sistema de login
 
 # Principios SOLID utilizados
 
@@ -16,6 +27,6 @@ Se utilizo el principio "S — Single Responsibility" en el archivo CAST VOTE/lo
 ![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/2.jpg)
 
 Se utilizo el principio "D — Dependency Inversion" en el archivo CAST VOTE/login/backend/ConnectionBD.js y en el archivo 
-CAST VOTE/login/backend/ConnectionBD.js
+CAST VOTE/login/backend/ConnectionBDVoter.js
 
 ![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/3.jpg)
