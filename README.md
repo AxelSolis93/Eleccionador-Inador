@@ -11,7 +11,11 @@ Se utilizo el plugin SonarLint para verificar que el codigo elavorado sea limpio
 
 Se utilizo el principio "S — Single Responsibility" en el archivo CAST VOTE/login/backend/ConnectionBDVoter.js
 
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/1.jpg)
+
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/2.jpg)
+
 Se utilizo el principio "D — Dependency Inversion" en el archivo CAST VOTE/login/backend/ConnectionBD.js y en el archivo 
 CAST VOTE/login/backend/ConnectionBD.js
 
-
+![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/3.jpg)
