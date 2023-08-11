@@ -117,7 +117,7 @@ CAST VOTE/login/backend/ConnectionBDVoter.js
 
 ### Prácticas de codificación limpia aplicadas:
 
-**Descripción**: Uso de constantes para evitar números mágicos o cadenas de texto sin contexto. 
+**Descripción**: Uso de constantes para evitar números mágicos o cadenas de texto sin contexto. Esto en el caso de prueba para generar datos y se entienda la funcionalidad.
 
 **Fragmento de Código**:
 ```javascript
@@ -126,7 +126,7 @@ const nombresGrupos = ['Lista 1', 'Lista 2', 'Lista 3'];
 
 ### Estilos de Programación aplicados:
 
-**Descripción**: Programación funcional en React utilizando Hooks (useState). 
+**Descripción**: Programación funcional en React utilizando Hooks (useState), formas de modificar el comportamiento del programa. 
 
 **Fragmento de Código**:
 ```javascript
