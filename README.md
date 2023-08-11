@@ -164,4 +164,5 @@ Exhibe características del **Estilo de Pipeline**. Sin embargo, no se adhiere e
 ![image](https://github.com/AxelSolis93/Eleccionador-Inador/assets/104087488/47cf0be9-9987-4477-b20b-891f49b346a1)
 
 
-
+Se utilizo el principio "S — Single Responsibility" en el archivo Result/geneter_results/src/App.js
+![image](https://github.com/AxelSolis93/Eleccionador-Inador/assets/104087488/e6641051-38c0-4b6f-8112-4feecddaa368)
