@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './LoginVoting.css'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'
 
 const LoginVoting = () => {
 
-    const [user, setUser] = React.useState({
+    const [user, setUser] = useState({
         email: '',
         password: ''
     })
@@ -35,9 +35,9 @@ const LoginVoting = () => {
         }))
     }
 
+    axios.defaults.withCredentials = true;
     const handleClick = async (event) => {
         event.preventDefault();
-
         try {
             if (emptyField(user.email, user.password)){
                 alert('Debe llenar ambas casillas para continuar');
@@ -52,9 +52,10 @@ const LoginVoting = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:8800/checkUser', user);
+            const response = await axios.post('http://localhost:8800/login', user);
 
-            if (response.data === true) {
+            if (response.data.login === true) {
+                navigate('/Pruea');
                 alert('Usuario Valido');
             }
             else {
