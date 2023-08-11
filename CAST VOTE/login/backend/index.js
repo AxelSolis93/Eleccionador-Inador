@@ -31,7 +31,7 @@ app.use(session({
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'matafurros9000',
+    password: '12345678',
     database: 'voting'
 })
 
