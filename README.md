@@ -112,4 +112,34 @@ CAST VOTE/login/backend/ConnectionBDVoter.js
 
 ![Alt text](https://github.com/Berly01/Eleccionador-Inador/blob/main/CAST%20VOTE/img/3.jpg)
 
+# Generar voto:
+
+
+### Prácticas de codificación limpia aplicadas:
+
+**Descripción**: Uso de constantes para evitar números mágicos o cadenas de texto sin contexto. 
+
+**Fragmento de Código**:
+```javascript
+const nombresGrupos = ['Lista 1', 'Lista 2', 'Lista 3'];
+```
+
+### Estilos de Programación aplicados:
+
+**Descripción**: Programación funcional en React utilizando Hooks (useState). 
+
+**Fragmento de Código**:
+```javascript
+import React,{useState} from "react";
+const [nomElegidos, setNomElegidos] = useState({});
+```
+
+### Principios SOLID aplicados:
+
+
+**Descripción**: Principio de Responsabilidad Única (SRP) - `App` se encarga solo de mostrar una lista de opciones y recoger las elecciones del usuario. No está mezclando esta responsabilidad con otras tareas, como conectarse a una base de datos o manejar estilos.
+
+![image](https://github.com/AxelSolis93/Eleccionador-Inador/assets/104087488/47cf0be9-9987-4477-b20b-891f49b346a1)
+
+
 
