@@ -126,13 +126,35 @@ const nombresGrupos = ['Lista 1', 'Lista 2', 'Lista 3'];
 
 ### Estilos de Programación aplicados:
 
-**Descripción**: Programación funcional en React utilizando Hooks (useState), formas de modificar el comportamiento del programa. 
+Es un componente de React que muestra una lista de candidatos agrupados por sus respectivos grupos. Los usuarios pueden seleccionar un candidato de cada grupo usando botones de opción (radio buttons). Los candidatos seleccionados se muestran luego en formato JSON para su envío.
 
-**Fragmento de Código**:
-```javascript
-import React,{useState} from "react";
-const [nomElegidos, setNomElegidos] = useState({});
-```
+1. **Uso de Estado**: El código utiliza el hook `useState` de React para gestionar el estado de los candidatos seleccionados.
+   ```javascript
+   const [nomElegidos, setNomElegidos] = useState({});
+   ```
+
+2. **Componentes Funcionales**: El código está escrito usando un componente funcional (`const App = () => {...}`), lo cual es un patrón común en el desarrollo moderno de React.
+
+3. **Manejo de Eventos**: El código utiliza manejadores de eventos para actualizar el estado cuando se selecciona un botón de opción.
+   ```javascript
+   onChange={realizarCambio(nombresGrupos[indiceGrupo])}
+   ```
+
+4. **Procesamiento de Datos**: El código calcula el número total de candidatos usando la función `reduce`.
+   ```javascript
+   const totalElementos = grupos.reduce((total, grupo) => total + grupo.length, 0);
+   ```
+
+### Identificación del Estilo:
+
+Dadas las características del código:
+
+**Componentes Funcionales**: El uso de componentes funcionales en React se alinea con el **Estilo de Pipeline** donde las funciones (o componentes en este caso) toman una entrada y producen una salida sin efectos secundarios. Sin embargo, el uso del estado y los efectos secundarios (como el manejo de eventos) se desvía del estilo funcional puro.
+
+### Conclusión:
+
+Exhibe características del **Estilo de Pipeline**. Sin embargo, no se adhiere estrictamente a ningún estilo. En su lugar, combina varios paradigmas de programación típicos del desarrollo moderno de React.
+
 
 ### Principios SOLID aplicados:
 
